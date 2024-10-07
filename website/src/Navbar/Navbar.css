@@ -5,11 +5,13 @@
 }
 
 .navbar {
-    background-color: #AAA;
+    background-color: #000;
     height: 50px;
     width: 100%;
     display: flex;
     justify-content: left;
+    position: fixed;
+    top: 0px;
 }
 
 .navbar btn {
@@ -19,6 +21,10 @@
 }
 
 .navbar btn:hover {
-    background-color: #EEE;
-    color: #000;
+    background-color: #AAA;
+}
+
+.navbar a:link, .navbar a:visited {
+    color: #FFF;
+    text-decoration: none;
 }

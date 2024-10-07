@@ -5,13 +5,18 @@
 }
 
 .botbar {
-    background-color: #AAA;
-    position: fixed;
-    bottom: 0;
+    background-color: #000;
+    color: #FFF;
     height: 40px;
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+}
+
+.botbar a:link, .botbar a:visited {
+    color: aqua;
+    text-decoration: none;
 }

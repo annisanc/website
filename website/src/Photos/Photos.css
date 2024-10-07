@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Photo h1 {
+    margin-bottom: 10px;
+}
+
+.Photo img {
+    width: "60%";
+    min-width: 250px;
+}
+
+.Photo p {
+    color: #888;
+}
+
+@media only screen and (min-width: 1000px) {
+    .Photo {
+        font-size: 200%;
+    }
+}
