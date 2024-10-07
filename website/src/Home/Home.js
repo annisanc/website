@@ -5,7 +5,7 @@ function Home() {
     <div className="Home">
         <img src={ID}id="imag"alt='ID'/>
         <about>
-            <abt>Hello! My name is Andrew Sanchez and I am a hardworking prosepective software engineer with an eager mind and eye for detail. 
+            <abt>Welcome! My name is Andrew Sanchez and I am a hardworking prosepective software engineer with an eager mind and eye for detail. 
                 I graduated from the University of California Santa Cruz with a bachelors degree in Computer Science, becoming proficient in subjects
                 such as database systems, artificial intelligence, and web design through the projects I built.
                 Personally, my hobbies include art, hiking, electronics, and photography- feel free to view my photo of the day at the bottom of page!</abt>
